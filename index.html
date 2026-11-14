@@ -632,7 +632,7 @@ footer{font-family:var(--f-mono);font-size:12px}
 
 <section id="packages">
   <style>
-  #packages .pkgs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:8px}
+  #packages .pkgs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
   @media (max-width:1100px){#packages .pkgs{grid-template-columns:1fr 1fr}}
   @media (max-width:640px){#packages .pkgs{grid-template-columns:1fr}}
   #packages .pk{position:relative;padding:24px 22px 22px;border-radius:20px;border:1px solid var(--g-edge);background:linear-gradient(160deg,rgba(255,255,255,.06),rgba(255,255,255,.015));backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:flex;flex-direction:column;min-width:0}
@@ -657,9 +657,27 @@ footer{font-family:var(--f-mono);font-size:12px}
     <div class="sh rv">
       <span class="eyebrow">Packages</span>
       <h2>Fixed scope. <span class="hl">Clear price.</span></h2>
-      <p class="lead">Starting points, not quotes. Every project gets a written scope and a fixed price before any code. Payment by milestone: a 30% advance, the rest on delivery of each part.</p>
+      <p class="lead">Two small fixed-price reviews to start fast, and starting points for bigger builds. Every project gets a written scope and a fixed price before any code. Payment by milestone: a 30% advance, the rest on delivery of each part.</p>
     </div>
     <div class="pkgs">
+      <div class="pk rv">
+        <span class="tag">New · fixed price</span>
+        <h3>MCP &amp; Agent Config Review</h3>
+        <div class="price">$199 <small>USD fixed</small></div>
+        <div class="time">3 working days</div>
+        <p class="for">For teams giving AI agents tools: MCP servers, skills, AGENTS.md, Claude Code or Cursor setups.</p>
+        <ul><li>Up to 3 repos or agent setups reviewed</li><li>Unpinned packages, leaked keys, auto-approve and plain-HTTP servers</li><li>Tools that can write, send, delete or run commands without a human check</li><li>Short report with an exact fix for each finding</li></ul>
+        <a class="btn" href="mailto:komarapujordanephraim@gmail.com?subject=MCP%20%26%20Agent%20Config%20Review">Book this review</a>
+      </div>
+      <div class="pk rv">
+        <span class="tag">New · post-quantum</span>
+        <h3>PQC Crypto Inventory</h3>
+        <div class="price">$349 <small>USD fixed</small></div>
+        <div class="time">3 to 5 working days</div>
+        <p class="for">For teams starting post-quantum planning who need to know where RSA, ECC and DH live.</p>
+        <ul><li>Up to 5 repos scanned: code, configs, manifests and lockfiles</li><li>Direct and transitive crypto libraries, with versions</li><li>Inventory as JSON plus an HTML report your team can read</li><li>Prioritised migration notes (signing keys first, then key exchange)</li></ul>
+        <a class="btn" href="mailto:komarapujordanephraim@gmail.com?subject=PQC%20Crypto%20Inventory">Book this inventory</a>
+      </div>
       <div class="pk rv">
         <span class="tag">Pilot · fastest start</span>
         <h3>AI Security Check</h3>
